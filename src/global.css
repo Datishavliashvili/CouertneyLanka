@@ -83,10 +83,8 @@ h6 {
   --button-text: #ffffff;
   --main-section-bg: #f9f9f9;
   --second-main-bg: #ff9900;
-  --second-main-transperent: #f2cb00;
-  --side-color: #fff856;
 }
 @font-face {
   font-family: "Poppins";
-  src: url(assets/Poppins-Regular.ttf);
+  src: url("../public/assets/Poppins-Regular.ttf");
 }
