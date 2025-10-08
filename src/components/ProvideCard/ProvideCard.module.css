@@ -3,4 +3,27 @@
   font-weight: 600;
   font-family: "Poppins", Arial, Helvetica;
   color: var(--text-color);
+  width: 227px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer {
+  width: 357px;
+  height: 93px;
+  display: flex;
+  justify-content: row;
+  flex-wrap: wrap;
+  border-left: 13px solid #fff856;
+  border-radius: 8px;
+  background-color: #ffffff;
+  gap: 40px;
+}
+.imgs {
+  display: flex;
+  align-self: center;
+  padding-left: 20px;
+  width: 58px;
+  height: 58px;
 }
