@@ -1,0 +1,6 @@
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", Arial, Helvetica;
+  color: var(--text-color);
+}
