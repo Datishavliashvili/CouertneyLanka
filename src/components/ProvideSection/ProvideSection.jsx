@@ -59,7 +59,13 @@ const ProvideSection = () => {
     { img: analyst, title: "Business Analyst" },
     {
       img: techlead,
-      title: "Tech Leads / Team Leads",
+      title: (
+        <>
+          Tech Leads / Team
+          <br />
+          Leads
+        </>
+      ),
     },
     { img: productdesigner, title: "Product Designer" },
     { img: phonedev, title: "Mobile App Developers" },

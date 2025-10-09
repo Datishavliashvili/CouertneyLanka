@@ -3,9 +3,9 @@
   font-weight: 600;
   font-family: "Poppins", Arial, Helvetica;
   color: var(--text-color);
-  width: 227px;
-  text-align: left;
+  max-height: 60px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -13,17 +13,24 @@
   width: 357px;
   height: 93px;
   display: flex;
-  justify-content: row;
-  flex-wrap: wrap;
+  gap: 41px;
+  align-items: center;
   border-left: 13px solid #fff856;
   border-radius: 8px;
   background-color: #ffffff;
-  gap: 40px;
+
+  text-align: left;
 }
 .imgs {
   display: flex;
   align-self: center;
-  padding-left: 20px;
+  margin-left: 20px;
   width: 58px;
   height: 58px;
+}
+.mainContainer:hover {
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+  transform: scale(1.1);
+  background-color: #e6e9ef;
 }
