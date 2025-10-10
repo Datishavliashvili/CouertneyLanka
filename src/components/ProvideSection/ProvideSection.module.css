@@ -1,14 +1,16 @@
-.test {
+.mainContainer {
   background-color: var(--main-section-bg);
   display: flex;
   flex-direction: column;
   padding-top: 90px;
   padding-bottom: 110px;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding-left: 100px;
 }
-.test1 {
+.titleContainer {
   display: flex;
   flex-direction: column;
-  margin-left: 100px;
   margin-bottom: 50px;
   gap: 25px;
   width: 500px;
@@ -25,8 +27,21 @@
   font-family: "Poppins", Arial, Helvetica;
 }
 .cardContainer {
-  margin-left: 100px;
   display: flex;
   flex-wrap: wrap;
   gap: 26px;
+}
+
+/*! Phone Section */
+
+@media (max-width: 450px) {
+  .mainContainer {
+    max-width: 450px;
+    max-height: 1028px;
+  }
+  .titleContainer {
+    gap: 16px;
+    max-width: 375px;
+    margin-bottom: 33px;
+  }
 }

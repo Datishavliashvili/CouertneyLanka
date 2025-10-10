@@ -78,14 +78,15 @@ const ProvideSection = () => {
   ];
 
   return (
-    <div className={Provide.test}>
-      <div className={Provide.test1}>
+    <div className={Provide.mainContainer}>
+      <div className={Provide.titleContainer}>
         <p className={Provide.title}>Specialized</p>
         <h2 className={Provide.description}>
           Specialized Staff We <br />
           Provide
         </h2>
       </div>
+
       <div className={Provide.cardContainer}>
         {Card.map((eachElement) => (
           <ProvideCard img={eachElement.img} title={eachElement.title} />
