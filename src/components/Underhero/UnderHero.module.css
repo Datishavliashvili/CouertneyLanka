@@ -1,0 +1,49 @@
+   @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Kumbh+Sans:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+.box {
+    display: flex;
+    max-width: 100%;
+    justify-self: center;
+    flex-direction: row;
+    gap: 30px;
+    font-family: 'Poppins';
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+}
+
+.card h3 {
+    max-width: 350px;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    color: rgba(22, 32, 95, 1);
+}
+
+.card p {
+    font-size: 18px;
+    width: 344px;
+    min-height: 162px;
+    font-weight: 400;
+    line-height: 100%;
+    color: rgba(22, 32, 95, 1);
+}
+
+.imgback {
+    max-width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: yellow;
+}
