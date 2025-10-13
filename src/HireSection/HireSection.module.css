@@ -1,0 +1,57 @@
+.hire_container {
+  max-width: 1440px;
+  color: #16205f;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  margin-top: 104px;
+}
+
+.text_container {
+  margin-bottom: 84px;
+}
+
+.text_container h4 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 100%;
+  margin-bottom: 19px;
+}
+
+.text_container h3 {
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 58px;
+  margin-bottom: 24px;
+}
+
+.log_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+}
+
+.box {
+  max-width: 357px;
+}
+
+.box img {
+  background-color: #fff856;
+  border-radius: 12px;
+}
+
+.box h5 {
+  margin-bottom: 19px;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.box p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}

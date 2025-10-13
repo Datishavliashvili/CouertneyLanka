@@ -1,7 +1,9 @@
+import HireSection from "./Hiresection/Hiresection";
+
 const App = () => {
   return (
     <div>
-      <h1>Hello World</h1>
+      <HireSection />
     </div>
   );
 };
