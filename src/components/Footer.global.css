@@ -1,0 +1,105 @@
+.footer {
+  max-width: 1920px;
+  height: 647px;
+  background-color: #fff;
+  padding: 60px 120px;
+  font-family: "Inter", sans-serif;
+}
+
+.topSection {
+  display: flex;
+}
+.logo {
+  width: 195px;
+  height: 83px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 22px;
+  color: #16205f;
+  margin-bottom: 30px;
+  max-width: 340px;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+
+.contactList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 18px;
+  color: #16205f;
+  margin-bottom: 30px;
+}
+.addressItem {
+  line-height: 30px;
+}
+
+.addressText p {
+  margin: 0;
+}
+
+.contactList img {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+}
+
+.socialSection p {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 22px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 16px;
+}
+
+.socialIcons img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.rightSection {
+  display: flex;
+  gap: 160px;
+  margin-top: 5px;
+}
+
+.column h4 {
+  font-size: 16px;
+  font-weight: 1200;
+  padding-bottom: 12px;
+  color: #16205f;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.column ul li {
+  color: #333;
+  margin-bottom: 34px;
+  cursor: pointer;
+}
+
+.bottomSection {
+  border-top: 1px solid #e5e5e5;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+.bottomSection p {
+  font-weight: 400px;
+  font-size: 18px;
+  color: #16205f;
+}
