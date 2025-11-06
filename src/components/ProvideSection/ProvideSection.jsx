@@ -21,8 +21,26 @@ import phonedev from "/assets/imgs/phone-developers.svg";
 import infosec from "/assets/imgs/info-security.svg";
 import golang from "/assets/imgs/golang.svg";
 import database from "/assets/imgs/database.svg";
+import { useRef } from "react";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const ProvideSection = () => {
+  const container = useRef();
+
+  useGSAP(
+    () => {
+      gsap.from(`.${Provide.cardContainer}`, {
+        y: -100,
+        opacity: 0,
+        duration: 1.5,
+        stagger: 0.3,
+        ease: "power2.inOut",
+      });
+    },
+    { scope: container }
+  );
+
   const Card = [
     { img: frontend, title: "Frontend Engineers" },
     { img: angular, title: "Angular Developers" },
@@ -79,18 +97,20 @@ const ProvideSection = () => {
 
   return (
     <div className={Provide.mainContainer}>
-      <div className={Provide.titleContainer}>
-        <p className={Provide.title}>Specialized</p>
-        <h2 className={Provide.description}>
-          Specialized Staff We <br />
-          Provide
-        </h2>
-      </div>
+      <div className={Provide.sumContainer} ref={container}>
+        <div className={Provide.titleContainer}>
+          <p className={Provide.title}>Specialized</p>
+          <h2 className={Provide.description}>
+            Specialized Staff We <br />
+            Provide
+          </h2>
+        </div>
 
-      <div className={Provide.cardContainer}>
-        {Card.map((eachElement) => (
-          <ProvideCard img={eachElement.img} title={eachElement.title} />
-        ))}
+        <div className={Provide.cardContainer}>
+          {Card.map((eachElement) => (
+            <ProvideCard img={eachElement.img} title={eachElement.title} />
+          ))}
+        </div>
       </div>
     </div>
   );

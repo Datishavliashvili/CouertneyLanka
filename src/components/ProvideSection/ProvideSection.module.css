@@ -1,12 +1,6 @@
 .mainContainer {
   background-color: var(--main-section-bg);
-  display: flex;
-  flex-direction: column;
-  padding-top: 90px;
-  padding-bottom: 110px;
-  max-width: 1800px;
-  margin: 0 auto;
-  padding-left: 100px;
+  min-width: 100dvh;
 }
 .titleContainer {
   display: flex;
@@ -30,6 +24,13 @@
   display: flex;
   flex-wrap: wrap;
   gap: 26px;
+}
+.sumContainer {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-top: 90px;
+  padding-bottom: 110px;
 }
 
 /*! Phone Section */
