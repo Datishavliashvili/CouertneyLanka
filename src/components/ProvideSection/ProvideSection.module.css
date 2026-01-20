@@ -1,0 +1,48 @@
+.mainContainer {
+  background-color: var(--main-section-bg);
+  min-width: 100dvh;
+}
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  gap: 25px;
+  width: 500px;
+}
+.title {
+  color: var(--text-color);
+  font-family: "Poppins", Arial, Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+}
+.description {
+  color: var(--text-color);
+  font-size: 36px;
+  font-family: "Poppins", Arial, Helvetica;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+.sumContainer {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-top: 90px;
+  padding-bottom: 110px;
+}
+
+/*! Phone Section */
+
+@media (max-width: 450px) {
+  .mainContainer {
+    max-width: 450px;
+    max-height: 1028px;
+  }
+  .titleContainer {
+    gap: 16px;
+    max-width: 375px;
+    margin-bottom: 33px;
+  }
+}
